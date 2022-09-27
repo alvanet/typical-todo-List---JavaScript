@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1003d249;
+  
+}
+.container{
+    width: px;
+    height: 200px;
+    background-image: url('./congablue.jpg');
+    background-repeat: no-repeat;
+    background-color: #03110c;
+    position:flex: 1 1 auto;
+    top: 2%;
+    left: 2%;
+    border-radius: 20px;
+  
+}
+
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  flex-wrap:wrap;
+  max-width:fit-content;
+  
+}
+.deleteTask{
+    cursor: pointer;
+ width: 25px;
+ height: 25px;
+    text-align: center;
+    border-radius: %;
+    background: orangered;
+    color: #ffffff;
+    outline: none;
+    align-items: center;
+  margin: 0;
+  padding: 10;
+}
+.pText{
+    background: #ffffff;
+    text-transform: capitalize;
+    -ms-flex-align: stretch;
+   
+}
+.inputvalue{
+   
+    display: flex;
+    margin: 5px;
+    margin-bottom: px;
+}
+.inputVal{
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+    border: 2px solid rgb(69, 5, 187);
+  
+}
+.btn{
+    max-width: 100px;
+    background: #30097d;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px #1c7fdb;;
+    
+}
+.clearTask{
+    position:sticky;
+   bottom: 0px;
+   left: 15%;
+   background: rgb(243, 37, 5);
+   color: #ffffff;
+   width: 250px;
+   height: 35px;
+   border-radius: 10px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   outline-style: none;
+   box-shadow: 3px 3px #16d912;;
+}
