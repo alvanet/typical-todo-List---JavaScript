@@ -1,6 +1,6 @@
 # typical-todo-List---JavaScript
 My first ToDo list 
-This is a simple ToDo List WebApp all JavaScript via main.js
+This is a simple ToDo List WebApp.
 You can change or remove the logo in the style.css area.
 Its very hackable to make large or small, just own it!
 I would like to make is a phone app and use iphone memory in stead of my hosting server.
